@@ -91,11 +91,40 @@ console.log(capName);
 Collapse
 
 
+var sum = 0;
+
+for (var x =1 ; x<=50; x++){
+    sum += x
+}
+console.log(x);
 
 
+var friends = ["Romeo", 5, "dog"]
 
+console.log(friends[2]);
 
+var friends = {
+    name: '佐藤',
+    age: 32,
+    address: '東京都新宿区',
+    '趣味': 'プログラミング',
+    nationality: ""
+}
 
+for( var list in friends ) {
+
+    // 不要なプロパティは除外する
+    if( friends.hasOwnProperty( list ) ) {
+
+        console.log( list + ': ' + friends[list] );
+
+  }
+
+}
+let count = 0;
+for (; count<9; j++){
+    console.log(j + "")
+}
 
 
 

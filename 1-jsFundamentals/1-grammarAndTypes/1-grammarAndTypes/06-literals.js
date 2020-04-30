@@ -20,6 +20,13 @@ console.log(soup.a)
 
 //array literal
 let days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"];
-
+console.log(days.slice());
 console.log(days.toString())
 console.log(days.length);
+
+let cars = ["nissan", "toyota", "honda"]
+console.log(cars);
+
+console.log(cars[0]);
+console.log(cars[2]);
+console.log(cars.toString());
