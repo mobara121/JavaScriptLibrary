@@ -17,6 +17,11 @@ CHALLENGE
 - console.log 'Hello, my name is <your name>'
 - call (or invoke) your function
 */
+
+function name(first, last){
+    console.log(`Hello, my name is ${first} ${last}.`);
+}
+name('Romeo', 'Obara');
 ​
 function hello(firstName, lastName) {
 console.log(`Hello, my name is ${firstName} ${lastName}`);

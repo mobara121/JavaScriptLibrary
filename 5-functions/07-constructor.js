@@ -40,11 +40,3 @@ class TV {
     return `A ${this.screenSize}" ${this.refreshRate}hz ${this.screenType} ${this.manufacturer} TV.`;
   }
 }
-
-
-
-
-
-
-
-

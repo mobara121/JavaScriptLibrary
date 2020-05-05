@@ -1,6 +1,6 @@
 // we have a variable (hey) to represent the function hi
 let hey = function hi() {
-    console.log('hi');
+    console.log("hihi");
 }
 ​
 /*

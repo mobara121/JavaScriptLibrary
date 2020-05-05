@@ -67,10 +67,10 @@ let spaceJam = {
     }
 }
 
-// console.log(Object.keys(spaceJam));
-// console.log(Object.keys(spaceJam.monstars));
-// console.log(spaceJam.nbaPlayers["new Jersey Nets"])
-// console.log(Object.values(spaceJam.toonSquad));
+//console.log(Object.keys(spaceJam));
+//console.log(Object.keys(spaceJam.monsters));
+//console.log(spaceJam.nbaPlayers["new Jersey Nets"]);
+console.log(Object.values(spaceJam.toonSquad));
 ​
 ​
 let garden = {
@@ -86,7 +86,7 @@ let keys = Object.keys(garden);
 console.log(keys);
 console.log(typeof keys[0]);
 ​
-let zucchini = garden["vegetable"];
+let zucchini = garden["vegetable"]; 
 console.log(zucchini);
 ​
 let baking = {};
@@ -99,10 +99,44 @@ baking["flour"] = "Batter up!";
 console.log(baking);
 ​
 console.log(baking[garden["vegetable"]]);
-Collapse
 
-
-
+let movie = {
+    id: 1,
+    myFavoriteMovie:[
+      {
+        name: "ET",
+        runTime: "2h1m",
+        characters:[
+          {
+            nameOfCaracter: "E.T.",
+            age: "uncountable",
+            items:[
+              {
+                itemsOne:"Magic finger" ,
+                itemTwo: "Strechy neck"
+              },
+            ],
+          },
+          {
+            nameOfCaracter: "Elliott",
+            age: 10,
+            items:[
+              {
+                itemsOne:"bicycle",
+                itemTwo: "Super Nice Brother"
+              },
+            ],
+          }, 
+        ],
+        genre: "Family/Sci-fi"
+      },
+    ],
+  }
+  
+  //console.log("My Favorite Movie:", movie.myFavoriteMovie);
+  
+  console.log(movie.myFavoriteMovie[0].characters[0].nameOfCaracter);
+  console.log(movie.myFavoriteMovie[0].characters[0].items[0].itemsOne);
 
 
 
