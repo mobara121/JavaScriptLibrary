@@ -57,6 +57,12 @@ const pigLatin = (toTranslate) => {
 pigLatin("I think functions are cool"); // -> atinlay
 
 
+for(let i = 0; i <=10; i++){
+  for(let h = 0; h<=10; h++){
+    console.log(i * h);
+  }
+}
+// 
 
 
 
@@ -80,5 +86,4 @@ pigLatin("I think functions are cool"); // -> atinlay
 
 
 
-Message #instructorcode
 

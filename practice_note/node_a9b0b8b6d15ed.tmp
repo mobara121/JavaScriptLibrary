@@ -1,0 +1,4 @@
+let wdays = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday']
+for(let cnt = 4; cnt >= 0; cnt++){
+  console.log('Today is' + '' + cnt);
+}
