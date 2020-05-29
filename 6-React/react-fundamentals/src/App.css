@@ -42,13 +42,14 @@ footer  p {
 }
 
 ul {
-  list-style-type: none;
+  list-style-type: square;
 }
 
 /* Sidebar */
 .sidebar-list-styling{
   padding-left: 10px;
   padding-top: 15px;
+  padding-right: 10px;
   width: 20%;
   background-color: rgb(104, 161, 104);
   color: white;
@@ -61,7 +62,7 @@ ul {
 
 .sidebar-route{ 
   flex: 1;
-  padding: '00px'; 
+  padding-left: '10px'; 
 }
 /* header */
 .header {
@@ -82,4 +83,6 @@ ul {
 dl dd {
   font-size: 15px;
 }
+
+
 

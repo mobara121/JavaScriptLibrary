@@ -3,10 +3,11 @@ import './App.css';
 
 import Navbar from './components/Navbar/Navbar';
 import Auth from './components/Auth/Auth';
+import Pies from './components/Pies/Pies'
 
 function App() {
 
-  const [sessionToken, setSessionToken] = useState(5);//1st variable:sessionToken=(undefined), 2nd varialbe:setSessionToken=variable to be updated// 'set'をみたら、変更しようとしてるんだなあ、と予測する
+  const [sessionToken, setSessionToken] = useState(undefined);//1st variable:sessionToken=(undefined), 2nd varialbe:setSessionToken=variable to be updated// 'set'をみたら、変更しようとしてるんだなあ、と予測する
 
   let string = 'this is a string'
   let number = 4
@@ -14,10 +15,14 @@ function App() {
     test: 'test'
   }
 
+  const viewConductor = () => {
+    return sessionToken !== undefined ? <Pies /> : <Auth />
+  }
+
   return (
     <div className="App">
       <Navbar token={sessionToken} string={string} num={number} object={obj} />
-      <Auth />
+      {viewConductor()}
 
     </div>
   );
